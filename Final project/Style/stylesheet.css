@@ -1,0 +1,196 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(233, 235, 238)
+}
+header{
+    background-color: rgb(64, 105, 173);
+    
+}
+nav ul{
+	width: 30%;
+	list-style: none;
+	display: inline-block;
+	padding: 5px;
+	margin: 5px;
+}
+
+nav ul li{
+	float: left;
+	margin: 5px;
+}
+
+nav ul li a{
+	padding: 5px;
+	text-decoration: none;
+	color: #fff;
+    
+}
+
+nav a:hover{
+	color: #000;
+}
+header input[type=text] {
+  width: 130px;
+  box-sizing: border-box;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url(../Images/searchicon15.png);
+  background-position: 15px 15px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  float: left;
+  margin-top: 2.2px;
+  margin-left: 5px;
+
+  
+}
+
+header input[type=text]:focus {
+  width: 50%;
+  background-image: url(../Images/searchicon.png);
+  background-position: 5px 5px;
+  transition: width 0.4s ease-in-out;
+}
+
+.container{
+    width: 15%;
+    box-shadow: 3px 3px 3px 3px #888888;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+
+.left-section, a{
+    text-decoration: none;
+    color: #000;
+}
+
+.left-section, a:hover{
+    color: rgb(64, 105, 173);
+}
+
+.fas, .fab{
+    color: #000;
+    margin-left: 5px;
+}
+
+.main-container{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 45%;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.middle{
+    margin-left: 5px
+}
+
+.right-container{
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    width: 35%;
+    box-shadow: 3px 3px 3px 3px #888888;
+}
+
+.right{
+    margin-left: 5px
+}
+
+.other{
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 35%;
+    box-shadow: 3px 3px 3px 3px #888888;
+    
+}
+
+.tools{
+    margin-left: 5px;
+}
+
+.logo{
+    float: left;
+}
+
+.side-other{
+    width: 98.5%;
+    clear: both;
+    position: relative;
+    top: 10px;
+    box-shadow: 3px 3px 3px 3px #888888;
+    margin:0px 10px 0px 5px;
+    height: 172px;
+}
+
+.images{
+    
+}
+.box1{
+    background-image: url(../Images/images.jpeg);
+    width: 25%;
+    height: 172px;
+    float: left
+}
+
+.box2{
+    background-image: url(../Images/brain_collaboration.jpg);
+    width: 40%;
+    height: 172px;
+    float: left;
+    background-position: 
+}
+
+.box3{
+    background-image: url(../Images/Web%20design%20and%20dev%20tool.jpg);;
+    width: 35%;
+    height: 172px;
+    float: right
+}
+
+.images h3{
+    text-align: center;
+    position: relative;
+    top: 50%;
+    color: #000;
+}
+
+footer{
+    height: 50px;
+    background-color: rgb(64, 105, 173);
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.f-info{
+    position: relative;
+    top: 20px
+}
+
+table{
+    width: 50%;
+    background-color: #fff;
+    margin-left: 130px
+    
+        
+}
+
+table,td,th{
+    border-width: thin;
+    border-style: dotted;
+    border-color: #000;
+    border-collapse: separate;
+} 
+
+th,td{
+    padding: 5px;
+    text-align: center;
+}
